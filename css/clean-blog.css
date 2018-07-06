@@ -332,7 +332,7 @@ header.masthead .post-heading .meta a {
   padding: 0;
   resize: none;
   border: none;
-  border-radius: 0;
+  /*border-radius: 0;*/
   background: none;
   box-shadow: none !important;
   font-family: 'Lora', 'Times New Roman', serif;
@@ -399,13 +399,19 @@ footer .copyright {
   padding: 15px 25px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  border-radius: 0;
+  /*border-radius: 0;*/
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.btn-primary {
+/*.btn-primary {
   background-color: #0085A1;
   border-color: #0085A1;
+}*/
+
+.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -417,4 +423,18 @@ footer .copyright {
 .btn-lg {
   font-size: 16px;
   padding: 25px 35px;
+}
+
+/* Additional Classes */
+
+/* Profile Photo*/
+
+.profile_photo {
+    border-radius: 25px;
+}
+
+.btn-primary-outline {
+  color: #fff;
+  background-color: transparent;
+  border-color: #ccc;
 }
